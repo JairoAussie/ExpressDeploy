@@ -20,8 +20,8 @@ if(process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 }
 
-//const dbConn = process.env.MONGODB_URI || 'mongodb://localhost/blog_app'
-const dbConn = 'mongodb+srv://jairo:abcd1234@cluster0-xtckb.mongodb.net/blog_app'
+const dbConn = process.env.MONGODB_URI || 'mongodb://localhost/blog_app'
+//const dbConn = 'mongodb+srv://jairo:abcd1234@cluster0-xtckb.mongodb.net/blog_app'
 // Set three properties to avoid deprecation warnings:
 // useNewUrlParser: true
 // useUnifiedTopology: true
